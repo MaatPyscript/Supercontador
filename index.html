@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/estilo.css">
+    <title>Contador</title>
+</head>
+
+<body>
+    <header>
+        <h1><strong>Vamos Contar</strong></h1>
+    </header>
+    <section>
+        <div class="content">
+            <p style="display: flex; padding: 2px;">INÍCIO: <input type="number" name="inicio" id="txti"></p>
+            <p style="display: flex;  padding: 1px;">FIM: <input type="number" name="fim" id="txtf"></p>
+            <p style="display: flex; padding: auto;">PASSOS: <input type="number" name="passos" id="txtpa"></p>
+            <input class="btn" type="button" value="Contar" onclick="contar()">
+            <div style="display: flex; margin-top: 50px;" id="resp">
+                Preparando a contagem...
+            </div>
+        </div>
+    </section>
+    <footer><strong><i>&COPY; Matheus Augusto</i></strong></footer>
+    <script src="contador.js"></script>
+</body>
+
+</html>

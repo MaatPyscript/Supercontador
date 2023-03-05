@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,400;1,500&family=Roboto+Condensed&family=Roboto+Mono:wght@500&display=swap');
+
+/* Mobile */
+@media only screen and (max-width: 480px) {
+section {
+width: 100%;
+height: auto;
+border-radius: 0;
+padding: 10px;
+}
+
+.content {
+margin-top: 30px;
+font-size: 16pt;
+}
+
+.btn {
+width: 100%;
+margin-top: 30px;
+}
+}
+
+/* Tablet */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+section {
+width: 90%;
+height: auto;
+border-radius: 0;
+padding: 10px;
+}
+
+.content {
+margin-top: 50px;
+font-size: 20pt;
+}
+
+.btn {
+width: 100%;
+margin-top: 50px;
+}
+}
+
+/* Desktop */
+@media only screen and (min-width: 769px) {
+body {
+background-image: url(./textura-preta.jpg);
+font-family: 'Roboto Condensed', sans-serif;
+color: white;
+}
+
+h1 {
+text-transform: uppercase;
+letter-spacing: 8px;
+font: normal 30pt 'Roboto Condensed', sans-serif;
+text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.8);
+text-align: center;
+}
+
+section {
+background: white;
+opacity: 0.89;
+border-radius: 20px;
+padding: 15px;
+width: 650px;
+height: 750px;
+margin: auto;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+text-align: center;
+}
+
+.content {
+color: black;
+font: bold 18pt 'Poppins', sans-serif;
+display:grid;
+margin-top: 80px;
+}
+
+.btn {
+background: black;
+color: white;
+font: normal 13pt 'Poppins', sans-serif;
+border-radius: 50px;
+border: none;
+width: 260px;
+height: 40px;
+margin: auto;
+margin-top: 50px;
+cursor: pointer;
+text-decoration: none;
+}
+
+.btn:hover {
+background: grey;
+}
+
+footer {
+color: white;
+text-align: center;
+font-style: italic;
+font-size: 16px;
+margin-top: 20px;
+}
+}
